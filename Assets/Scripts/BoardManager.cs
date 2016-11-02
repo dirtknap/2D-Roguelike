@@ -42,7 +42,7 @@ public class BoardManager : MonoBehaviour
         BoardSetup();
         InitializeList();
         LayoutObjectAtRandom(wallTiles, wallcount.minimum, wallcount.maximim);
-        LayoutObjectAtRandom(floorTiles, foodItems.minimum, foodItems.maximim);
+        LayoutObjectAtRandom(foodTiles, foodItems.minimum, foodItems.maximim);
         int enemyCount = (int) Mathf.Log(level);
         LayoutObjectAtRandom(enemyTiles, enemyCount, enemyCount);
         Instantiate(exit, new Vector3(columns - 1, rows - 1, 0f), Quaternion.identity);

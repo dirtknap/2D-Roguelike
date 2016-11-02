@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2D-Roguelike.CSharp", "2D-Roguelike.CSharp.csproj", "{414A4F83-FF8F-71A9-7D6D-BED5342755C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2D-Roguelike.CSharp.Editor", "2D-Roguelike.CSharp.Editor.csproj", "{F7F60451-5F47-D602-B2C7-412E26B876E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{414A4F83-FF8F-71A9-7D6D-BED5342755C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{414A4F83-FF8F-71A9-7D6D-BED5342755C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{414A4F83-FF8F-71A9-7D6D-BED5342755C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{414A4F83-FF8F-71A9-7D6D-BED5342755C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7F60451-5F47-D602-B2C7-412E26B876E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7F60451-5F47-D602-B2C7-412E26B876E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7F60451-5F47-D602-B2C7-412E26B876E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7F60451-5F47-D602-B2C7-412E26B876E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
