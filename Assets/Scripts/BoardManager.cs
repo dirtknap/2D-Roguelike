@@ -92,7 +92,7 @@ public class BoardManager : MonoBehaviour
 
     void LayoutObjectAtRandom(GameObject[] tileArray, int min, int max)
     {
-        var objectCount = Random.Range(min, max - 1);
+        var objectCount = Random.Range(min, max + 1);
 
         for (var i = 0; i < objectCount; i++)
         {
